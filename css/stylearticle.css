@@ -85,6 +85,15 @@ h4{
     color: white;
 }
 
+h5{
+    color: white;
+    font-size: 1.5em;
+    width: 350px;
+    margin: auto;    
+    padding-top: 130px;
+    text-align: center;
+}
+
 .menubutton{
     top: 0;
     position: absolute;
