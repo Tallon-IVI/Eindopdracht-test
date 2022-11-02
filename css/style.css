@@ -1,21 +1,18 @@
-body{
-    margin: 0;
+.mainpage-body{
     background-color: #D85193;
+    color: white;
 }
 
+.article-body{
+    background-color: black;
+}
 
-header{
+.mainpage-header{
     width: 1366px;
     height: 910px;
     margin: auto;
-    background-image: url(/img/mainpage-picture.jpg);
+    background-image: url(../img/mainpage-picture.jpg);
     background-size: 1366px;
-    top: 5;
-}
-
-.background-picture{
-    width: 1366px;
-    top: 5;
 }
 
 p{
@@ -29,6 +26,7 @@ h1{
     text-decoration-line: underline;
     font-weight: bold;
     margin: 0 auto;
+    padding-top: 20px;
     text-align: center;
     top: 0;
 }
@@ -38,7 +36,7 @@ h2{
     font-size: 2em;
     font-style: italic;
     font-weight: bold;
-    margin-top: 20px;
+    padding-top: 15px;
     text-align: center;
     top: 2;
 }
@@ -47,7 +45,7 @@ h3{
     color: white;
     text-align: center;
     font-size: 3em;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 h4{
@@ -102,7 +100,7 @@ h5{
     font-size: 1.5em;
 }
 
-section{
+.mainpage-section{
     height: 920px;
     width: 1366px;
     margin: auto;
@@ -121,7 +119,7 @@ section{
 .bluebox{
     height: 892px;
     width: 629px;
-    background-color: #0176F7;
+    border: solid white 10px;
     position: absolute;
     top: 1;
 }
@@ -131,6 +129,12 @@ section{
     height: 615px;
     margin-left: 158px;
     position: absolute;
+}
+
+.read-more{
+    color: white;
+    font-size: 1.5em;
+    margin-left: 15px;
 }
 
 .pinkbox{
@@ -260,11 +264,7 @@ footer{
     margin-top: 52px;
 }
 
-a{
-    color: white;
-    font-size: 1.5em;
-    margin-left: 22px;
-}
+
 
 .nav-btn {
     padding: 16px;
@@ -292,3 +292,160 @@ a{
 
 .nav-content .nav-item:hover {background-color: black;}
 .hamburger-menu:hover .nav-content {display: block;}
+
+.article-header{
+    width: 1366px;
+    height: 910px;
+    margin: auto;
+    background-size: 1366px;
+    background-color: #343434;
+}
+
+.csgocase{
+    height: 500px;
+    width: 800px;
+    margin-top: 40px;
+    float: left;
+}
+
+.titlebox{
+    width: 566px;
+    height: 498px;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    float: right;
+    margin-top: 40px;
+}
+
+.divider{
+    background-color: #DEDDDD;
+    width: 1366px;
+    height: 22px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.abboneren{
+    margin: auto;
+    margin-top: 20px;
+    height: 227px;
+    width: 780px;
+    border: solid black 2px;   
+}
+
+.abboneren-knop{
+    width: 523px;
+    height: 53px;
+    border: solid black 2px;
+    margin: auto;
+    background-color: black;
+}
+
+h6{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+} 
+
+.hamburger-menu{
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+}
+
+.article-section{
+    height: 3643px;
+    width: 1366px;
+    background-color: #343434;
+    margin: auto;
+}
+
+.anekdote{
+    height: 158px;
+    width: 1088px;
+    border: solid white 1px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.nutshell{
+    width: 1246px;
+    height: 150px;
+    border: solid white 1px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.pc-setup{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.morality{
+    width: 945px;
+    height: 516px;
+    border: solid white 1px;
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+}
+
+
+.lootbox-rage{
+    margin-top: 30px;
+}
+
+.consequences{
+    width: 887px;
+    height: 447px;
+    border: solid white 1px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 40px;
+    float: left;
+}
+
+.positive-side{
+    width: 1246px;
+    height: 350px;
+    border: solid white 1px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.gaming-child{
+margin-top: 30px;
+margin-left: 59px;
+}
+
+.youth{
+    width: 887px;
+    height: 417px;
+    border: solid white 1px;
+    margin: auto;
+    margin-top: 30px;
+    float: right;
+    margin-right: 59px;
+}
+
+p{
+ font-size: 1.5em;
+ color: white;
+ text-align: center;
+ margin: 0px 20px 0px 20px;
+ margin-top: 30px;
+}
+
+.article-footer{
+    width: 1366px;
+    height: 298px;
+    background-color: #4B3E20;
+    bottom: 0;
+    margin-top: 52px;
+    margin: auto;
+}
+
